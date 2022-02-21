@@ -22,3 +22,5 @@ def predict():
 if __name__ == '__main__':
     load_model = pickle.load(open('model_knn', 'rb'))
     app.run(debug= True)
+
+# pip3 freeze > requirements.txt
